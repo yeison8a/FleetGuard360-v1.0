@@ -45,7 +45,7 @@ export default function EditAlert({ id }: EditAlertProps) {
 
         setLoading(false);
       } catch (err) {
-        setError('Error al cargar la alerta');
+        setError('Error al cargar la alerta: '+err);
         setLoading(false);
       }
     };

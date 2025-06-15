@@ -1,5 +1,4 @@
 import "./globals.css";
-import Link from "next/link";
 import Navbarr from "@/components/Navbarr";
 import { AuthProvider } from "./context/AuthContext";
 export default function RootLayout({
